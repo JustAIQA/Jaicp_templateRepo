@@ -1,15 +1,21 @@
 {
   "project" : {
-    "id" : "bot_template-1000001-VLT",
-    "name" : "bot_template-1000001-VLT",
-    "folder" : "/"
+    "id" : "git-1000001-Aif",
+    "name" : "git-1000001-Aif",
+    "folder" : "/platform"
   },
   "settings" : {
     "language" : "ru",
     "spellingCorrection" : false,
     "classificationAlgorithm" : "sts",
     "timezone" : "UTC",
-    "shared" : false
+    "shared" : false,
+    "validation" : {
+      "phraseValidationEnabled" : false,
+      "answerValidationEnabled" : false,
+      "phraseValidationThreshold" : 0.5,
+      "answerValidationThreshold" : 0.8
+    }
   },
   "intents" : [ ],
   "entities" : [ ],
@@ -117,5 +123,7 @@
   }, {
     "name" : "zb.number",
     "enabled" : false
-  } ]
+  } ],
+  "faq" : [ ],
+  "skills" : [ ]
 }

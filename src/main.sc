@@ -22,7 +22,7 @@ theme: /
           "then" : "/newNode_59"
         }
     state: newNode_60 || modal = true
-        a: Имя
+        a: Имя1
 
         state:
             q: * *start *
