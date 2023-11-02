@@ -12,7 +12,7 @@ theme: /
           "then" : "/newNode_60"
         }
     state: newNode_1
-        go!: /newNode_60
+        go!: /newNode_603
     @InputText
         {
           "boundsTo" : "",
